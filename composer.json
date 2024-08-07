@@ -1,0 +1,35 @@
+{
+  "name": "netgen/ibexa-filter-search",
+  "description": "Netgen Ibexa Filter Search",
+  "type": "ibexa-bundle",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Netgen",
+      "homepage": "https://netgen.io/"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "ext-pdo": "*",
+    "ibexa/core": "^4.2",
+    "pagerfanta/pagerfanta": "^2.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Netgen\\IbexaFilterSearch\\": "lib",
+      "Netgen\\IbexaFilterSearchBundle\\": "bundle"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Netgen\\IbexaFilterSearch\\Tests\\": "tests/lib",
+      "Netgen\\IbexaFilterSearchBundle\\Tests\\": "tests/bundle"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.x-dev"
+    }
+  }
+}
