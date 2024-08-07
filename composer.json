@@ -1,6 +1,6 @@
 {
-  "name": "netgen/ibexa-filter-search",
-  "description": "Netgen Ibexa Filter Search",
+  "name": "netgen/ibexa-search-filter",
+  "description": "Netgen Ibexa Search Filter",
   "type": "ibexa-bundle",
   "license": "GPL-2.0-or-later",
   "authors": [
@@ -17,14 +17,14 @@
   },
   "autoload": {
     "psr-4": {
-      "Netgen\\IbexaFilterSearch\\": "lib",
-      "Netgen\\IbexaFilterSearchBundle\\": "bundle"
+      "Netgen\\IbexaSearchFilter\\": "lib",
+      "Netgen\\IbexaSearchFilterBundle\\": "bundle"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Netgen\\IbexaFilterSearch\\Tests\\": "tests/lib",
-      "Netgen\\IbexaFilterSearchBundle\\Tests\\": "tests/bundle"
+      "Netgen\\IbexaSearchFilter\\Tests\\": "tests/lib",
+      "Netgen\\IbexaSearchFilterBundle\\Tests\\": "tests/bundle"
     }
   },
   "extra": {
