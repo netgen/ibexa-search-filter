@@ -1,0 +1,4 @@
+parameters:
+  ibexa_search_filter:
+    default:
+
